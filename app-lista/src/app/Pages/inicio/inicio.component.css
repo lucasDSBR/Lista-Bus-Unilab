@@ -1,0 +1,26 @@
+.example-sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+  
+.example-sidenav {
+    padding: 0px;
+    width: 60%;
+}
+.btn{
+    width: 90%;
+    height: 90%
+}
+.btn:hover{
+    background-color: #f8f9fa;
+    width: 90%;
+    height: 90%
+}
+.items{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
