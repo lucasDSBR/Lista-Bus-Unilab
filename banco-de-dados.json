@@ -1,0 +1,37 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Lucas da Silva Maciel",
+      "matricula": "1231342415",
+      "curso": "Engenharia da Computação",
+      "tipoUsuario": "aluno"
+    }
+    
+  ],
+
+  "listas": [
+    {
+      "id": 1,
+      "dataIda": "10/09/2021",
+      "dataVolta": "12/09/2021",
+      "usuarios": [
+        {
+          "id": 1,
+          "nome": "Lucas da Silva Maciel",
+          "matricula": "1231342415",
+          "curso": "Engenharia da Computação",
+          "tipoUsuario": "aluno"
+        },
+        {
+          "id": 2,
+          "nome": "Luzia Luziene castro Aguiar",
+          "matricula": "1231342415",
+          "curso": "Engenharia Agronoma",
+          "tipoUsuario": "aluno"
+        }
+      ]
+    }
+
+  ]
+}

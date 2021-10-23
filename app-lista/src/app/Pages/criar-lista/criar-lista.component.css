@@ -1,0 +1,16 @@
+.cardCriarLista{
+    text-align: center;
+    height: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.criarLista {
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+}
+.example-full-width:focus{
+    background-color: #28a745;
+}

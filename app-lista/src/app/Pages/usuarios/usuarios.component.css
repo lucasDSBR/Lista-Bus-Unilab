@@ -1,0 +1,30 @@
+.example-container {
+    height: 70%;
+    overflow: auto;
+  }
+  
+  table {
+    width: 100%;
+  }
+
+.cancelar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btnDetalhes{
+    background-color: #17a2b8;
+    
+}
+
+.opcoesLista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cadastrarUsuario{
+    width: 50%;
+    color: #fff;
+    background-color: #28a745;
+}
