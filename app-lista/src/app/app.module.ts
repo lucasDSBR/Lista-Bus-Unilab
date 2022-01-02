@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, LOCALE_ID  } from '@angular/core';
+import { HttpModule } from '@angular/http'
 
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatInputModule} from '@angular/material/input';
@@ -44,6 +45,7 @@ registerLocaleData(localePt);
     CriarListaComponent
   ],
   imports: [
+    HttpModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

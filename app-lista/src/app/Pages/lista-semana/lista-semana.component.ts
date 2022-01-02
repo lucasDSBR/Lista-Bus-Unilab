@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ListasService } from '../../Service/listas.services';
+import { Listas } from '../../Model/listas.model';
 export interface PeriodicElement {
   name: string;
   position: number;
@@ -22,15 +23,18 @@ const ELEMENT_DATA: PeriodicElement[] = [
 @Component({
   selector: 'app-lista-semana',
   templateUrl: './lista-semana.component.html',
-  styleUrls: ['./lista-semana.component.css']
+  styleUrls: ['./lista-semana.component.css'],
+  providers: [ListasService]
 })
 export class ListaSemanaComponent implements OnInit {
   displayedColumns: string[] = ['name', 'weight'];
   dataSource = ELEMENT_DATA;
-  constructor() { }
+  constructor(private listasService: ListasService) { }
 
   ngOnInit() {
   }
+
+  
 
 }
 
